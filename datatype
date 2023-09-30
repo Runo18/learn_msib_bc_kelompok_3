@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Belajar javascript</title>
+</head>
+<body>
+    <h1>tipe data array pada javascript</h1>
+
+<!-- id hasil -->
+<div id="hasil"></div>
+
+<script>
+    // tipe data array
+    var buah =["apel", "mangga", "anggur", "lengkeng", "ranmbutan"];
+
+    //menampilkan tipe data array pada element id hasil
+    document.getElementById("hasil").innerHTML = buah[1];
+</script>
+</body>
+</html>\
