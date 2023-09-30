@@ -57,7 +57,5 @@ const Workchain = new Blockchain();
 Workchain.addBlock(new Block(Date.now().toString(), ["Hello BUIDLERS1"]));
 Workchain.addBlock(new Block(Date.now().toString(), ["Hello BUIDLERS2"]));
 Workchain.addBlock(new Block(Date.now().toString(), ["Hello BUIDLERS3"]));
-//Workchain.chain[1].data = [1];  //check validation false
-//console.log(Workchain.isvalid());  //check validation false and true
-//console.log(Workchain.chain);  //check run hash & timestamp
-console.log(Workchain);  // POW
+
+console.log(Workchain);
