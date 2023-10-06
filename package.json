@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "ethers": "^6.7.1",
+    "hardhat": "^2.18.0",
     "ts-node": "^10.9.1"
   }
 }
